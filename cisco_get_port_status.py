@@ -35,13 +35,13 @@ def main():
 
             if args.status:
                 sh_int_status = run_command(
-                    args, deviceaddr, username, password, "show int status"
+                    deviceaddr, username, password, "show int status"
                 )
                 parsed = parse_ports(sh_int_status)
                 get_port_status(parsed, args.status)
 
 
-def run_command(args, deviceaddr, username, password, command):
+def run_command(deviceaddr, username, password, command):
 
     device = {
         "device_type": "cisco_ios",
