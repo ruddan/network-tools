@@ -10,7 +10,7 @@ from pprint import pprint
 def main():
 
     parser = argparse.ArgumentParser(
-        description="Find mac-address in mac-address table"
+        description="Locate ports based on connection status"
     )
     parser.add_argument(
         "--i",
