@@ -1,7 +1,6 @@
 # Network Tools
 
-Tools to make your administration of network devices easier. Also a playground for me to improve my python skills :)
-As of now scripts only works with cisco devices.
+Tools to make your administration of network devices easier.
 
 ## cisco_get_mac.py
 
